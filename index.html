@@ -1,0 +1,362 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vasika K — Computer Science Engineering student and aspiring full stack developer.">
+  <title>Vasika K | Developer Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+  <div class="noise"></div>
+
+  <header class="navbar">
+    <a href="#home" class="logo"><span>V</span>K.</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-button">Let's Talk <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="availability">
+          <span class="status-dot"></span>
+          COMPUTER SCIENCE ENGINEERING STUDENT
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+        <h1>Vasika <span class="gradient-text">K.</span></h1>
+
+        <h2>Aspiring <span class="typing" id="typing"></span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I build practical, user-friendly applications by combining
+          clean code, creative design, and problem-solving.
+          Currently learning and growing as a developer.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="button primary">Explore My Work <span>↗</span></a>
+          <a href="#contact" class="button secondary">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/vasika2005" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <span class="social-divider"></span>
+          <a href="https://www.linkedin.com/in/vasika-k-b85408298" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <span class="social-divider"></span>
+          <a href="mailto:vasikaluckyvasikalucky@gmail.com">Email ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-card">
+          <div class="card-top">
+            <span class="window-dots"><i></i><i></i><i></i></span>
+            <span>vasika.dev</span>
+          </div>
+
+          <div class="code-content">
+            <p><span class="code-purple">const</span> developer = {</p>
+            <p class="indent">name: <span class="code-green">"Vasika K"</span>,</p>
+            <p class="indent">degree: <span class="code-green">"B.E. CSE"</span>,</p>
+            <p class="indent">skills: [</p>
+            <p class="indent double"><span class="code-orange">"Java"</span>, "SQL",</p>
+            <p class="indent double"><span class="code-orange">"HTML/CSS"</span></p>
+            <p class="indent">],</p>
+            <p class="indent">passion: <span class="code-green">"Building"</span></p>
+            <p>};</p>
+            <p class="code-comment">// Always learning ✨</p>
+          </div>
+
+          <div class="floating-badge badge-top">✦ Creative Thinker</div>
+          <div class="floating-badge badge-bottom"><span>●</span> Open to Opportunities</div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span></span> SCROLL TO EXPLORE
+      </a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span class="gradient-text">Me</span></h2>
+        <p>A little about my journey, mindset, and goals.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-card reveal">
+          <div class="icon-box">✦</div>
+          <h3>Who I Am</h3>
+          <p>
+            I'm a Computer Science Engineering student at PSNA College
+            of Engineering and Technology, passionate about software
+            development, database-driven applications, and modern web design.
+          </p>
+          <p>
+            I enjoy learning new technologies and turning ideas into
+            useful projects. My goal is to grow into a skilled software
+            developer and contribute to real-world products.
+          </p>
+        </article>
+
+        <div class="about-stats">
+          <article class="glass-card stat-card reveal">
+            <span class="stat-number">03</span>
+            <h3>Academic Projects</h3>
+            <p>Practical software development</p>
+          </article>
+          <article class="glass-card stat-card reveal">
+            <span class="stat-number">02</span>
+            <h3>Internship Experiences</h3>
+            <p>Full stack and AI/DS exposure</p>
+          </article>
+          <article class="glass-card stat-card reveal">
+            <span class="stat-number">2027</span>
+            <h3>Graduation</h3>
+            <p>B.E. Computer Science Engineering</p>
+          </article>
+          <article class="glass-card stat-card reveal">
+            <span class="stat-number">∞</span>
+            <h3>Curiosity</h3>
+            <p>Always learning something new</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY TOOLKIT</p>
+        <h2>Skills & <span class="gradient-text">Technologies</span></h2>
+        <p>Technologies I have learned and used in my projects.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="glass-card skill-card reveal">
+          <div class="skill-icon">⌘</div>
+          <h3>Programming</h3>
+          <div class="tags"><span>Java</span><span>Python basics</span></div>
+        </article>
+        <article class="glass-card skill-card reveal">
+          <div class="skill-icon">⟨/⟩</div>
+          <h3>Web Development</h3>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="glass-card skill-card reveal">
+          <div class="skill-icon">◈</div>
+          <h3>Database & Tools</h3>
+          <div class="tags"><span>SQL</span><span>Git</span><span>GitHub</span></div>
+        </article>
+        <article class="glass-card skill-card reveal">
+          <div class="skill-icon">✧</div>
+          <h3>Design & AI</h3>
+          <div class="tags"><span>UI/UX</span><span>Canva</span><span>Prompt Engineering</span><span>Gen AI</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I'VE BUILT</p>
+        <h2>Featured <span class="gradient-text">Projects</span></h2>
+        <p>Academic projects focused on solving practical problems.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="glass-card project-card reveal">
+          <div class="project-art art-one">
+            <div class="art-icon">◉</div>
+            <span class="art-label">COMPUTER VISION</span>
+            <div class="art-orbit"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>01 / PROJECT</span><span>Python</span></div>
+            <h3>Face Recognition Attendance Management System</h3>
+            <p>
+              Automated attendance recording using face recognition,
+              with attendance record management and report generation.
+            </p>
+            <div class="tags"><span>Python</span><span>OpenCV</span><span>MySQL</span></div>
+          </div>
+        </article>
+
+        <article class="glass-card project-card reveal">
+          <div class="project-art art-two">
+            <div class="art-icon">▤</div>
+            <span class="art-label">WEB APPLICATION</span>
+            <div class="art-orbit"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>02 / PROJECT</span><span>Full Stack</span></div>
+            <h3>Centralized Student Complaint Management System</h3>
+            <p>
+              A centralized platform for complaint submission, tracking,
+              status updates, and more organized record management.
+            </p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>Database</span></div>
+          </div>
+        </article>
+
+        <article class="glass-card project-card reveal">
+          <div class="project-art art-three">
+            <div class="art-icon">✳</div>
+            <span class="art-label">MACHINE LEARNING</span>
+            <div class="art-orbit"></div>
+          </div>
+          <div class="project-info">
+            <div class="project-meta"><span>03 / PROJECT</span><span>AI & Data Science</span></div>
+            <h3>Diabetes Prediction Using Machine Learning</h3>
+            <p>
+              An internship project exploring data preprocessing and
+              machine-learning techniques for diabetes prediction.
+            </p>
+            <div class="tags"><span>Python</span><span>Machine Learning</span><span>Data Processing</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="project-note">Project technologies and descriptions should reflect your actual implementation.</p>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY JOURNEY SO FAR</p>
+        <h2>Internship <span class="gradient-text">Experience</span></h2>
+        <p>Learning through practical experience and guided projects.</p>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-date">2025 · 1 MONTH</span>
+            <h3>Python Full Stack Intern</h3>
+            <h4>Vinsup Infotech · Madurai</h4>
+            <p>Gained practical exposure to frontend and backend development, database-connected applications, responsive interfaces, SDLC, and team collaboration.</p>
+            <div class="tags"><span>Python</span><span>Web Development</span><span>Databases</span></div>
+          </div>
+        </article>
+
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <span class="timeline-date">JULY 2026 · 1 MONTH</span>
+            <h3>Artificial Intelligence & Data Science Intern</h3>
+            <h4>Virtual Tech Services · Chennai</h4>
+            <p>Completed an internship project on Diabetes Prediction Using Machine Learning and explored data preprocessing and prediction techniques.</p>
+            <div class="tags"><span>AI</span><span>Data Science</span><span>Machine Learning</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY FOUNDATION</p>
+        <h2>Education & <span class="gradient-text">Certificates</span></h2>
+      </div>
+
+      <div class="education-grid">
+        <div class="glass-card education-card reveal">
+          <span class="education-year">2023 — 2027</span>
+          <h3>B.E. Computer Science Engineering</h3>
+          <p>PSNA College of Engineering and Technology</p>
+          <span class="education-score">82.3%</span>
+        </div>
+        <div class="glass-card education-card reveal">
+          <span class="education-year">2022 — 2023</span>
+          <h3>Higher Secondary · XII</h3>
+          <p>Holly Family School</p>
+          <span class="education-score">86%</span>
+        </div>
+        <div class="glass-card education-card reveal">
+          <span class="education-year">2020 — 2021</span>
+          <h3>Secondary · X</h3>
+          <p>Holly Family School</p>
+          <span class="education-score">Pass</span>
+        </div>
+      </div>
+
+      <div class="certificates glass-card reveal">
+        <h3>Courses & Certifications</h3>
+        <div class="certificate-list">
+          <div><span>✦</span> Website UI/UX Designing using ChatGPT <small>Simplilearn</small></div>
+          <div><span>✦</span> Python Basic <small>Digi Labs</small></div>
+          <div><span>✦</span> Java Training <small>IIT Spoken Tutorial</small></div>
+          <div><span>✦</span> Prompt Engineering <small>IBM</small></div>
+          <div><span>✦</span> AI Tools Workshop <small>be10X</small></div>
+          <div><span>✦</span> Introduction to Generative AI <small>Google Cloud</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-box reveal">
+        <div class="contact-orb"></div>
+        <p class="eyebrow">HAVE AN OPPORTUNITY?</p>
+        <h2>Let's build something <span class="gradient-text">great.</span></h2>
+        <p>I'm interested in software development opportunities, meaningful projects, and connecting with people in tech.</p>
+        <a class="button primary" href="mailto:vasikaluckyvasikalucky@gmail.com">Get In Touch ↗</a>
+
+        
+<div class="contact-details">
+  <a href="mailto:vasikaluckyvasikalucky@gmail.com">
+    ✉ vasikaluckyvasikalucky@gmail.com
+  </a>
+
+  <a href="tel:+919751975481">
+    ☎ +91 9751975481
+  </a>
+
+  <a href="https://github.com/vasika2005"
+     target="_blank"
+     rel="noopener noreferrer">
+    💻 GitHub Profile ↗
+  </a>
+
+  <a href="https://www.linkedin.com/in/vasika-k-b85408298"
+     target="_blank"
+     rel="noopener noreferrer">
+    🔗 LinkedIn Profile ↗
+  </a>
+</div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo"><span>V</span>K.</a>
+    <p>Designed & built with <span class="gradient-text">♥</span> by Vasika K.</p>
+    <p>© <span id="year"></span> All rights reserved.</p>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+</body>
+</html>
